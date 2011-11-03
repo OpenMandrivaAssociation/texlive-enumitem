@@ -1,3 +1,9 @@
+# revision 24146
+# category Package
+# catalog-ctan /macros/latex/contrib/enumitem
+# catalog-date 2011-09-28 17:37:11 +0200
+# catalog-license lppl
+# catalog-version 3.5.2
 Name:		texlive-enumitem
 Version:	3.5.2
 Release:	1
@@ -44,6 +50,7 @@ environments with counters of their own.
 %doc %{_texmfdistdir}/doc/latex/enumitem/README
 %doc %{_texmfdistdir}/doc/latex/enumitem/enumitem.pdf
 %doc %{_texmfdistdir}/doc/latex/enumitem/enumitem.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ environments with counters of their own.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
