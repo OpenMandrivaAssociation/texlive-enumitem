@@ -6,7 +6,7 @@
 # catalog-version 3.5.2
 Name:		texlive-enumitem
 Version:	3.5.2
-Release:	5
+Release:	6
 Summary:	Control layout of itemize, enumerate, description
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/enumitem
