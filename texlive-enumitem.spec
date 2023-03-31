@@ -1,6 +1,6 @@
 Name:		texlive-enumitem
 Version:	51423
-Release:	1
+Release:	2
 Summary:	Control layout of itemize, enumerate, description
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/enumitem
